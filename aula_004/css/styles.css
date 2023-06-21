@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(248, 245, 238);
+}
+h1, h2, h3{
+    color:rgb(98, 30, 162); 
+    font-family: Sacramento;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+p{
+    color:rgb(2, 2, 69);
+    font-size: 20px;
+    font-family: "Arvo";
+    font-variant: normal;
+    text-align: justify;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.row, .rowItem{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+    margin: 10px;
+}
+
+.rowItem{
+    flex-direction: column;
+    margin: 10px;
+    width: 600px;
+  
+}
+
+.map{
+    width: 400px;
+    height: 500px;
+}
